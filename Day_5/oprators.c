@@ -5,14 +5,14 @@ int main(){
 //  3. Assignment operators (=,+=,-=,*=,/=,%=)
 //  4. Relational Operators (<,<=,>,>=,==,!=)
 //  5. Logical operators (&&,||,!)
-//  6. Bitwise operators (&,<<,>>,^,|,~)
 
-// int num1 = 87;
-// int num2 = 6;
-// int num3 = 34;
-// int sum = num1+num2+num3; //30
 
-// printf("Sum of three numbers %d\n", sum); // 79
+int num1 = 87;
+int num2 = 6;
+int num3 = 34;
+int sum = num1+num2+num3; //30
+
+printf("Sum of three numbers %d\n", sum); // 79
 
 printf("Incre and Decre Operator\n");
 
