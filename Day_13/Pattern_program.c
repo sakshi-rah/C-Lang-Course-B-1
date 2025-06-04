@@ -17,6 +17,10 @@ for(i=1; i<=5; i++){// i=6
 }
 
 /*
+Outer loop (i) runs from 1 to 5 → controls number of rows.
+Inner loop (j) runs from 1 to i → controls number of * printed in each row.
+So row 1 has 1 star, row 2 has 2, ..., row 5 has 5.
+
 *
 * *
 * * *
@@ -35,6 +39,9 @@ for(a=1; a<=5; a++){ // i =1
 }
 
 /*
+Similar structure to the star triangle.
+But instead of printing "* ", it prints the value of j.
+So each row prints increasing numbers starting from 1.
 1
 1 2
 1 2 3
@@ -52,7 +59,9 @@ for(p=5; p>=1; p--){// i=6
 }
 
 /*
-
+Outer loop starts from 5 and decreases to 1.
+Inner loop prints * up to the value of i.
+So row 1 has 5 stars, row 2 has 4, ..., row 5 has 1.
 * * * * * 
 * * * *
 * * *
