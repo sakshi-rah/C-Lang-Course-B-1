@@ -33,7 +33,7 @@ printf("\nRight-Angle Triangle in Number pattern program: \n");
 int a, b;
 for(a=1; a<=5; a++){ // i =1
     for(b=1; b<=a; b++){// j=3
-        printf("%d ", b+1);
+        printf("%d ", b);
     }
     printf("\n");
 }
