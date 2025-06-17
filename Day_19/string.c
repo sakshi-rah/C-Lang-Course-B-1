@@ -36,15 +36,24 @@ int main(){
 */
 
 // strcmp()
-char color[20] = "Blue";
-char color1[20] = "Pink";
+    /*char color[20] = "Blue";
+    char color1[20] = "Pink";
 
-if(strcmp(color, color1)== 0){
+    if(strcmp(color, color1)== 0){
     printf("Colors are Same");
-}else{
+    }else{
     printf("Colors are not Same");
-}
+    }
+*/
 
+// Get Full String or Sentence. 
+char Name[30]; // array of character
+    printf("Enter Your String: ");
+    scanf("%[^\n]", Name);
+    printf("Your String: %s\n", Name);
+
+    int length = strlen(Name);
+    printf("Length %d\n", length);
     return 0;
 }
 
