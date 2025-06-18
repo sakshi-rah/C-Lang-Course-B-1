@@ -51,7 +51,6 @@ char Name[30]; // array of character
     printf("Enter Your String: ");
     scanf("%[^\n]", Name);
     printf("Your String: %s\n", Name);
-
     int length = strlen(Name);
     printf("Length %d\n", length);
     return 0;
