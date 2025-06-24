@@ -56,8 +56,10 @@ int multy(int x, int y){
 }
 
 int main(){
-//int result =  multy(50, 100);
-//printf("Multiply of X & Y: %d", result);
-printf("Multiply: %d", multy(10,25));
+int result =  multy(50, 100);
+int anResult = multy(34, 5);
+printf("Multiply of X & Y: %d\n", result);
+printf("Multiply of X & Y: %d", anResult);
+// printf("Multiply: %d", multy(10,25));
     return 0;
 }
