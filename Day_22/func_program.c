@@ -71,9 +71,8 @@ int main() {
 #include <stdio.h>
 
 int square(int x) {
-    return x * x;
+    return x * x ;
 }
-
 int main() {
     int result = square(6);
     printf("Square = %d\n", result);
